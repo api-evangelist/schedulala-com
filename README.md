@@ -1,4 +1,4 @@
-# schedulala-com
+# Schedulala
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,135 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-schedulala-com is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://schedulala.com/
+Schedulala is a social media scheduling platform that lets creators, agencies, and brands publish posts across 12+ platforms—including Instagram, TikTok, Facebook, X (Twitter), LinkedIn, YouTube, Threads, Pinterest, Bluesky, Telegram, Mastodon, and Google Business—from a single dashboard. It offers features like auto direct messages, content calendar, analytics, multi‑workspace collaboration, and API, MCP, and CLI access for developers and AI agents. Plans start at $9 per month with a 7‑day free trial, and the service emphasizes easy onboarding, OAuth‑based authentication, and 24/7 email support.
+
+**Areas:** Social Media · Scheduling · Marketing · Automation · API
+
+## Schedulala on APIs.io
+
+Everything profiled for Schedulala is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/schedulala-com/](https://apis.io/providers/schedulala-com/)** — or go straight to one of the APIs or properties below.
+
+### APIs (1)
+
+- [Schedulala API](https://apis.io/apis/schedulala-com/schedulala-com-api/) — Schedulala API as documented publicly: 34 operations. Contract generated from the documentation by API Evangelist (2026-11-24); not the provider's own document.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### AsyncAPI (1)
+
+Event-driven and webhook contracts.
+
+- [Schedulala Com Webhooks](https://apis.io/asyncapis/schedulala-com/schedulala-com-webhooks/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [GetApiV1InstagramAudioResponse](https://apis.io/schemas/schedulala-com/schedulala-com-get-api-v1-instagram-audio-response/)
+- [PostApiV1MediaFromUrlRequest](https://apis.io/schemas/schedulala-com/schedulala-com-post-api-v1-media-from-url-request/)
+- [PostApiV1MediaFromUrlResponse](https://apis.io/schemas/schedulala-com/schedulala-com-post-api-v1-media-from-url-response/)
+- [PostApiV1MediaUploadsIdCompleteResponse](https://apis.io/schemas/schedulala-com/schedulala-com-post-api-v1-media-uploads-id-complete-response/)
+- [PostApiV1PostsBulkRequest](https://apis.io/schemas/schedulala-com/schedulala-com-post-api-v1-posts-bulk-request/)
+- [PostApiV1PostsBulkResponse](https://apis.io/schemas/schedulala-com/schedulala-com-post-api-v1-posts-bulk-response/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Schedulala Com Context](https://apis.io/jsonld/schedulala-com/schedulala-com-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Schedulala API Rules](https://apis.io/rules/schedulala-com/schedulala-com-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Schedulala Authentication](https://apis.io/security/schedulala-com/schedulala-com-authentication/)
+- [Schedulala Domain Security](https://apis.io/security/schedulala-com/schedulala-com-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Schedulala Plans Pricing](https://apis.io/plans/schedulala-com/schedulala-com-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Schedulala Rate Limits](https://apis.io/rate-limits/schedulala-com/schedulala-com-rate-limits/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://schedulala.com/)
+- [Documentation](https://schedulala.com/developers/docs)
+- [Getting started](https://schedulala.com/blog/youtube-shorts-for-business-getting-started)
+- [Pricing](https://schedulala.com/pricing)
+- [Changelog](https://schedulala.com/developers/docs/changelog)
+- [Blog](https://schedulala.com/blog)
+- [Terms of service](https://schedulala.com/tos)
+- [Privacy policy](https://schedulala.com/privacy-policy)
+
+## API Evangelist rating
+
+**Kin Score 57.6** — strong · rubric 0.28.0 · scored 2026-11-24
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 55.0 |
+| Contract governance | 79.1 |
+| Operational transparency | 54.3 |
+| Developer ergonomics | 52.4 |
+| Access clarity | 48.5 |
+
+**Agent readiness 41.2** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | documented (partial credit) |
+| Event Surface Described | unknown |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | na |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 18.6** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/schedulala-com/](https://apis.io/providers/schedulala-com/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Schedulala: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/schedulala-com/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
